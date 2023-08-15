@@ -14,25 +14,25 @@
  */
 int main(void)
 {
-    int num1, num2;
+	int num1, num2;
 
-    for (num1 = 0; num1 < 10; num1++)
-    {
-        for (num2 = num1 + 1; num2 < 10; num2++)
-        {
-            putchar(num1 + '0'); /* Print the first digit */
-            putchar(num2 + '0'); /* Print the second digit */
+	for (num1 = 0; num1 < 10; num1++)
+	{
+		for (num2 = num1 + 1; num2 < 10; num2++)
+		{
+			putchar(num1 + '0'); /* Print the first digit */
+			putchar(num2 + '0'); /* Print the second digit */
 
-            if (num1 != 8 || num2 != 9)
-            {
-                putchar(','); /* Print comma */
-                putchar(' '); /* Print space */
-            }
-        }
-    }
+			if (num1 != 8 || num2 != 9)
+			{
+				putchar(','); /* Print comma */
+				putchar(' '); /* Print space */
+			}
+		}
+	}
 
-    putchar('\n'); /* Print a newline at the end */
+	putchar('\n'); /* Print a newline at the end */
 
-    return (0);
+	return (0);
 }
 
